@@ -35,7 +35,9 @@ const InputPage: React.FC<InputPageProps> = ({
                     onChange={onInputChange}
                     onKeyDown={onSearch}
                     placeholder="A futuristic city skyline at dusk, impressionist style..."
-                    className="w-full bg-transparent border-b border-gray-600 text-2xl md:text-4xl text-center text-stone-100 focus:outline-none focus:border-stone-100 transition-colors py-4"
+                    className="w-full bg-transparent border-b border-gray-600 text-2xl md:text-4xl text-center 
+             text-stone-100 focus:outline-none focus:border-stone-100 transition-colors py-4
+             placeholder-[#555]"
                 />
                 <p className="text-center text-gray-500 text-sm mt-4">Press Enter to curate</p>
             </div>
